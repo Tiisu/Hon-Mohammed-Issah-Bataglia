@@ -29,17 +29,17 @@ export default function StickyRevealSection() {
     {
       title: "Education & Youth Development",
       desc: "Building better schools and creating opportunities for our young people to thrive.",
-      img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/honyouthdev.jpg",
     },
     {
       title: "Healthcare Access",
       desc: "Ensuring quality healthcare reaches every corner of Sissala East constituency.",
-      img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/honhealthcare.jpg",
     },
     {
       title: "Infrastructure Development",
       desc: "Roads, water, and electricity projects that connect our communities and drive growth.",
-      img: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/honinfac.jpg",
     },
     {
       title: "Agricultural Support",
@@ -89,7 +89,7 @@ export default function StickyRevealSection() {
                 className="rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-200"
               >
                 <div className="relative w-full h-56 md:h-72 lg:h-80 overflow-hidden bg-gray-100">
-                  <img src={it.img} alt={it.title} className="h-full w-full object-cover" />
+                  <img src={it.img} alt={it.title} className="h-full w-full object-cover object-top" />
                 </div>
                 <div className="p-5 md:p-6">
                   <h3 className="text-xl md:text-2xl font-semibold text-gray-900">{it.title}</h3>

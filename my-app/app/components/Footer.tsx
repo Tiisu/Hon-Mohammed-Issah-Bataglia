@@ -74,8 +74,12 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="mb-6">
               <div className="flex items-center gap-3 mb-4">
-                <div className="flex items-center justify-center h-12 w-12 rounded-full bg-gradient-to-br from-green-500 to-green-600 text-white font-bold">
-                  HB
+                <div className="h-12 w-12 rounded-full overflow-hidden border-2 border-green-500/30">
+                  <img 
+                    src="/honbataglia.png" 
+                    alt="Hon. Mohammed Issah Bataglia"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg">{siteConfig.candidateName}</h3>

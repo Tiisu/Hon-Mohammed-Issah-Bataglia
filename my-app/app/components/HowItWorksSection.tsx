@@ -12,17 +12,17 @@ export default function HowItWorksSection() {
       title: "Listen to the Community",
       desc:
         "Engaging directly with constituents to understand the real needs and challenges facing Sissala East.",
-      img: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/honwithcommemebrs.jpg",
     },
     {
       title: "Advocate in Parliament",
       desc: "Representing Sissala East's interests with passion and dedication in the national assembly.",
-      img: "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/honinparliament.jpg",
     },
     {
       title: "Deliver Results",
       desc: "Working tirelessly to bring development projects, resources, and opportunities to our constituency.",
-      img: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/hondonate.jpg",
     },
   ];
 
@@ -67,7 +67,7 @@ export default function HowItWorksSection() {
         <div className="mx-auto max-w-6xl">
           <header className="text-center mb-8 md:mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 tracking-tight">
-              How I Serve Sissala East
+              My Approach to Leadership
             </h2>
             <p className="mt-3 text-gray-600 max-w-2xl mx-auto">
               My commitment to meaningful representation and community development
@@ -119,8 +119,8 @@ export default function HowItWorksSection() {
             >
               {steps.map((s, i) => (
                 <div key={i} className="w-full flex-shrink-0">
-                  <div className="aspect-video w-full overflow-hidden">
-                    <img src={s.img} alt={s.title} className="h-full w-full object-cover" />
+                  <div className="aspect-video w-full overflow-hidden bg-gray-100">
+                    <img src={s.img} alt={s.title} className="h-full w-full object-cover object-top" />
                   </div>
                   <div className="p-6 text-center">
                     <h3 className="text-2xl md:text-3xl font-semibold text-gray-900">{s.title}</h3>

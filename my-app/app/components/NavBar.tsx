@@ -12,8 +12,12 @@ export default function NavBar() {
           <div className="flex items-center justify-between gap-3">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 font-semibold text-gray-900">
-              <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-br from-brand to-brand-600 text-white font-bold text-sm">
-                HB
+              <div className="h-10 w-10 rounded-full overflow-hidden border-2 border-brand/20">
+                <img 
+                  src="/honbataglia.png" 
+                  alt="Hon. Mohammed Issah Bataglia"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <div className="hidden sm:block">
                 <div className="font-bold text-lg">{siteConfig.candidateName}</div>
