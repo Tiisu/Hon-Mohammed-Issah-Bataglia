@@ -20,7 +20,6 @@ export default function Footer() {
 
   const involvement = [
     { label: "Volunteer", href: "/volunteer" },
-    { label: "Donate", href: "/donate" },
     { label: "Town Hall Meetings", href: "/contact#meetings" },
     { label: "Community Events", href: "/gallery#community" },
   ];

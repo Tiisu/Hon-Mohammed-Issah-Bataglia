@@ -22,7 +22,7 @@ export default function HowItWorksSection() {
     {
       title: "Deliver Results",
       desc: "Working tirelessly to bring development projects, resources, and opportunities to our constituency.",
-      img: "/hondonate.jpg",
+      img: "/honinfac.jpg",
     },
   ];
 

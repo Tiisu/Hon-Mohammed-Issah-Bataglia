@@ -38,7 +38,6 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Button href="/volunteer">Volunteer</Button>
-            <Button href="/donate" variant="secondary">Donate</Button>
           </div>
         </div>
       </Section>

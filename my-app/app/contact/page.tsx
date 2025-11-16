@@ -202,12 +202,12 @@ export default function ContactPage() {
                     </div>
 
                     <div className="flex items-center gap-4 pt-4">
-                      <Button 
+                      <button 
                         type="submit"
-                        className="bg-green-600 hover:bg-green-700 text-white px-8 py-3"
+                        className="inline-flex items-center justify-center rounded-full px-8 py-3 text-sm font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-green-600 hover:bg-green-700 text-white focus-visible:ring-green-600"
                       >
                         Send Message
-                      </Button>
+                      </button>
                       <div className="text-sm text-gray-500">
                         * Required fields
                       </div>
