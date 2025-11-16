@@ -93,6 +93,15 @@ body {
   }
 }
 
+@keyframes expandWidthMobile {
+  from {
+    width: 0;
+  }
+  to {
+    width: 4rem;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -120,6 +129,17 @@ body {
 
 .animate-expandWidth {
   animation: expandWidth 1s ease-out forwards;
+}
+
+.animate-expandWidth-mobile {
+  animation: expandWidthMobile 1s ease-out forwards;
+}
+
+/* Responsive expandWidth animation */
+@media (max-width: 640px) {
+  .animate-expandWidth {
+    animation: expandWidthMobile 1s ease-out forwards;
+  }
 }
 
 .animate-fadeIn {
@@ -150,4 +170,38 @@ body {
 .priority-visible {
   opacity: 1 !important;
   transform: translateY(0) !important;
+}
+
+/* Button overflow protection */
+.button-container {
+  /* Prevent button scaling from causing horizontal overflow */
+  padding: 0 4px;
+  overflow: hidden;
+}
+
+/* Aggressive mobile overflow prevention */
+@media (max-width: 640px) {
+  /* Disable all scale transforms on mobile to prevent overflow */
+  .transform.hover\:scale-105:hover,
+  .transform.sm\:hover\:scale-105:hover {
+    transform: none !important;
+  }
+  
+  /* Ensure all buttons stay within bounds */
+  .inline-flex {
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+  
+  /* Force text to stay within button bounds */
+  button, a[class*="button"] {
+    max-width: 100% !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  
+  /* Prevent any element from extending past viewport */
+  * {
+    max-width: 100vw !important;
+  }
 }
