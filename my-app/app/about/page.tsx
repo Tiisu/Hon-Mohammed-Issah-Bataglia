@@ -20,7 +20,7 @@ function ValuesCarouselSection() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C20.832 18.477 19.246 18 17.5 18c-1.746 0-3.332.477-4.5 1.253" />
         </svg>
       ),
-      bgImage: "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      bgImage: "/honinparliament.jpg",
       commitments: ["Monthly constituency reports", "Open budget discussions", "Regular town halls", "Accessible office hours"]
     },
     {
@@ -33,7 +33,7 @@ function ValuesCarouselSection() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      bgImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      bgImage: "/honwithcommemebrs.jpg",
       commitments: ["Cross-party collaboration", "Inclusive development", "Community partnerships", "Traditional leader engagement"]
     },
     {
@@ -46,7 +46,7 @@ function ValuesCarouselSection() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
-      bgImage: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      bgImage: "/honinfac.jpg",
       commitments: ["Quality education access", "Modern infrastructure", "Healthcare expansion", "Job creation initiatives"]
     },
     {
@@ -59,7 +59,7 @@ function ValuesCarouselSection() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
         </svg>
       ),
-      bgImage: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      bgImage: "/honyouthdev.jpg",
       commitments: ["Digital literacy programs", "Modern farming techniques", "Tech-enabled services", "Youth innovation hubs"]
     }
   ];
@@ -359,7 +359,7 @@ function JourneySection() {
       title: "Rural Roots & Academic Excellence",
       desc: "Born into a farming family in Sissala East, walking miles to school daily and experiencing rural challenges firsthand.",
       details: "Growing up in a farming family, Hon. Bataglia experienced firsthand the challenges facing rural communities - limited access to quality education, healthcare, and economic opportunities. Despite financial constraints, he excelled academically, earning a scholarship to pursue higher education. These early experiences shaped his worldview and instilled in him a deep commitment to community development.",
-      img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "/honyouthdev.jpg",
       highlights: ["Scholarship recipient", "Top academic performer", "Community volunteer"]
     },
     {
@@ -368,7 +368,7 @@ function JourneySection() {
       title: "University of Ghana Excellence",
       desc: "Bachelor's degree in Political Science and Public Administration, graduating with honors and active in student leadership.",
       details: "At the University of Ghana, Hon. Bataglia pursued Political Science and Public Administration, graduating with honors. His academic journey was marked by active participation in student leadership and community service initiatives. He served as class representative and was involved in various student organizations focused on rural development and social justice.",
-      img: "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "/honinparliament.jpg",
       highlights: ["Graduated with honors", "Student leadership roles", "Community service awards"]
     },
     {
@@ -377,7 +377,7 @@ function JourneySection() {
       title: "Local Government & Community Service",
       desc: "Rising through local government ranks as Community Development Officer and Local Government Administrator.",
       details: "Beginning his career in local government, Hon. Bataglia served as a Community Development Officer, directly working with rural communities to implement development projects. His exceptional performance led to promotions, including roles as Youth Development Coordinator and Local Government Administrator, where he gained invaluable experience in public administration and grassroots development.",
-      img: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "/honwithcommemebrs.jpg",
       highlights: ["Community Development Officer", "Youth Development Coordinator", "Local Government Administrator"]
     },
     {
@@ -386,7 +386,7 @@ function JourneySection() {
       title: "District Chief Executive",
       desc: "Appointed as District Chief Executive, overseeing major development projects and community transformation initiatives.",
       details: "As District Chief Executive, Hon. Bataglia demonstrated exceptional leadership in coordinating development projects across the district. He spearheaded initiatives in education, healthcare, and infrastructure, while fostering unity among diverse communities. His tenure was marked by significant improvements in rural road networks, school construction, and healthcare facility upgrades.",
-      img: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "/honinfac.jpg",
       highlights: ["Infrastructure development", "Community unity initiatives", "Educational improvements"]
     },
     {
@@ -395,7 +395,7 @@ function JourneySection() {
       title: "Member of Parliament",
       desc: "Elected to represent Sissala East in Parliament, advocating for constituency development and national policy reform.",
       details: "Elected as Member of Parliament for Sissala East, Hon. Bataglia has brought his grassroots experience to the national level. He actively participates in parliamentary debates, chairs important committees, and has successfully advocated for policies benefiting rural constituencies. His parliamentary work focuses on education reform, healthcare access, agricultural development, and youth empowerment.",
-      img: "https://images.unsplash.com/photo-1560523160-754a9e25c68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      img: "/honhealthcare.jpg",
       highlights: ["Parliamentary committee roles", "Policy advocacy", "Constituency representation"]
     }
   ];
