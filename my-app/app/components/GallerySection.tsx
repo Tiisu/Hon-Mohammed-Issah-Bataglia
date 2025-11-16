@@ -20,36 +20,36 @@ export default function GallerySection() {
 
   const galleryItems = [
     // Parliament
-    { id: 1, category: "parliament", title: "Parliamentary Debate", desc: "Speaking on behalf of Sissala East", img: "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 2, category: "parliament", title: "Committee Meeting", desc: "Working on education policy", img: "https://images.unsplash.com/photo-1560523160-754a9e25c68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 3, category: "parliament", title: "Bill Presentation", desc: "Presenting constituency development bill", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 4, category: "parliament", title: "Budget Discussion", desc: "Advocating for Sissala East allocation", img: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 5, category: "parliament", title: "Cross-Party Collaboration", desc: "Working across party lines", img: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 6, category: "parliament", title: "Media Interview", desc: "Discussing constituency issues", img: "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
+    { id: 1, category: "parliament", title: "Parliamentary Debate", desc: "Speaking on behalf of Sissala East", img: "/honinparliament.jpg" },
+    { id: 2, category: "parliament", title: "Committee Meeting", desc: "Working on education policy", img: "/honinparliament.jpg" },
+    { id: 3, category: "parliament", title: "Bill Presentation", desc: "Presenting constituency development bill", img: "/honbataglia.png" },
+    { id: 4, category: "parliament", title: "Budget Discussion", desc: "Advocating for Sissala East allocation", img: "/honinparliament.jpg" },
+    { id: 5, category: "parliament", title: "Cross-Party Collaboration", desc: "Working across party lines", img: "/honinparliament.jpg" },
+    { id: 6, category: "parliament", title: "Media Interview", desc: "Discussing constituency issues", img: "/honbataglia.png" },
 
     // Community Events
-    { id: 7, category: "community", title: "Community Festival", desc: "Celebrating local culture and traditions", img: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 8, category: "community", title: "Youth Empowerment", desc: "Skills training graduation ceremony", img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 9, category: "community", title: "Women's Group Meeting", desc: "Supporting women entrepreneurs", img: "https://images.unsplash.com/photo-1573164713347-c3dd532f7054?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 10, category: "community", title: "Health Awareness Campaign", desc: "Community health education", img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 11, category: "community", title: "Agricultural Fair", desc: "Promoting local farming", img: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 12, category: "community", title: "School Prize Day", desc: "Awarding academic excellence", img: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 13, category: "community", title: "Sports Tournament", desc: "Youth football championship", img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 14, category: "community", title: "Cultural Dance", desc: "Traditional dance performance", img: "https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
+    { id: 7, category: "community", title: "Community Festival", desc: "Celebrating local culture and traditions", img: "/honwithcommemebrs.jpg" },
+    { id: 8, category: "community", title: "Youth Empowerment", desc: "Skills training graduation ceremony", img: "/honwithstudents.jpg" },
+    { id: 9, category: "community", title: "Women's Group Meeting", desc: "Supporting women entrepreneurs", img: "/honwithcommemebrs.jpg" },
+    { id: 10, category: "community", title: "Health Awareness Campaign", desc: "Community health education", img: "/honhealthcare.jpg" },
+    { id: 11, category: "community", title: "Agricultural Fair", desc: "Promoting local farming", img: "/campaignpic.jpg" },
+    { id: 12, category: "community", title: "School Prize Day", desc: "Awarding academic excellence", img: "/honwithstudents.jpg" },
+    { id: 13, category: "community", title: "Sports Tournament", desc: "Youth football championship", img: "/honinfootball.jpg" },
+    { id: 14, category: "community", title: "Cultural Dance", desc: "Traditional dance performance", img: "/honwithcommemebrs.jpg" },
 
     // Development Projects
-    { id: 15, category: "projects", title: "School Construction", desc: "New primary school completion", img: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 16, category: "projects", title: "Road Construction", desc: "Connecting rural communities", img: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 17, category: "projects", title: "Water Project", desc: "Clean water access for villages", img: "https://images.unsplash.com/photo-1594736797933-d0a9ba2fe38f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 18, category: "projects", title: "Health Clinic", desc: "New healthcare facility opening", img: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 19, category: "projects", title: "Solar Installation", desc: "Renewable energy for schools", img: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 20, category: "projects", title: "Market Rehabilitation", desc: "Improving trading conditions", img: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
+    { id: 15, category: "projects", title: "School Construction", desc: "New primary school completion", img: "/hoonnin school.jpg" },
+    { id: 16, category: "projects", title: "Road Construction", desc: "Connecting rural communities", img: "/honinfac.jpg" },
+    { id: 17, category: "projects", title: "Water Project", desc: "Clean water access for villages", img: "/honinfac.jpg" },
+    { id: 18, category: "projects", title: "Health Clinic", desc: "New healthcare facility opening", img: "/honhealthcare.jpg" },
+    { id: 19, category: "projects", title: "Solar Installation", desc: "Renewable energy for schools", img: "/honinfac.jpg" },
+    { id: 20, category: "projects", title: "Market Rehabilitation", desc: "Improving trading conditions", img: "/honinfac.jpg" },
 
     // Town Halls
-    { id: 21, category: "meetings", title: "Village Town Hall", desc: "Direct community engagement", img: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 22, category: "meetings", title: "Chiefs Meeting", desc: "Traditional authority consultation", img: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 23, category: "meetings", title: "Farmers Forum", desc: "Agricultural policy discussion", img: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-    { id: 24, category: "meetings", title: "Youth Assembly", desc: "Listening to young voices", img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
+    { id: 21, category: "meetings", title: "Village Town Hall", desc: "Direct community engagement", img: "/honwithcommemebrs.jpg" },
+    { id: 22, category: "meetings", title: "Chiefs Meeting", desc: "Traditional authority consultation", img: "/hongreeting.jpg" },
+    { id: 23, category: "meetings", title: "Farmers Forum", desc: "Agricultural policy discussion", img: "/campaignpic.jpg" },
+    { id: 24, category: "meetings", title: "Youth Assembly", desc: "Listening to young voices", img: "/honyouthdev.jpg" },
   ];
 
   const filteredItems = activeCategory === "all" 

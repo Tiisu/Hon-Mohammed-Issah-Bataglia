@@ -11,7 +11,7 @@ export default function InteractiveGallerySection() {
       title: "Parliamentary Work & Advocacy",
       desc:
         "Strong voice in Parliament, advocating for policies and resources that benefit Sissala East.",
-      img: "https://images.unsplash.com/photo-1541872705-1f73c6400ec9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/honinparliament.jpg",
       bullets: [
         "Active participation in parliamentary debates",
         "Championing constituency-focused legislation",
@@ -29,7 +29,7 @@ export default function InteractiveGallerySection() {
       title: "Development Projects",
       desc:
         "Successful delivery of infrastructure, education, and health projects across Sissala East.",
-      img: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/honinfac.jpg",
       bullets: [
         "Road construction and rehabilitation",
         "School building and renovation projects",
@@ -47,7 +47,7 @@ export default function InteractiveGallerySection() {
       title: "Community Engagement",
       desc:
         "Regular town halls, community visits, and direct engagement with constituents.",
-      img: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/honwithcommemebrs.jpg",
       bullets: [
         "Monthly community town halls",
         "Village-to-village engagement tours",
@@ -65,7 +65,7 @@ export default function InteractiveGallerySection() {
       title: "Youth & Education Focus",
       desc:
         "Empowering the next generation through scholarships, skills training, and educational support.",
-      img: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
+      img: "/honyouthdev.jpg",
       bullets: [
         "Scholarship programs for students",
         "Skills training and job creation",
